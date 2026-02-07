@@ -5,10 +5,6 @@
 
 A comprehensive machine learning pipeline for identifying quadrotor dynamics from PX4 flight log data. This project compares classical ML regressors, sequence models (LSTM & Transformer), and physics-guided feature engineering to predict next-state dynamics of a quadrotor UAV.
 
-<p align="center">
-  <img src="figures/pipeline_overview.png" alt="Pipeline Overview" width="700"/>
-</p>
-
 ## Overview
 
 This project addresses the problem of learning discrete-time dynamics models for quadrotor UAVs directly from flight data. Given state measurements (angular rates, accelerations) and motor commands at time $t$, we predict the state at $t+1$.
