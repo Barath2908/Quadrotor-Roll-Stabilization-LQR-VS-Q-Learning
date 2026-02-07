@@ -1,0 +1,16 @@
+﻿# Python / venv
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Common build outputs
+build/
+dist/
+*.egg-info/
